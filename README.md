@@ -24,6 +24,13 @@
     cd example
     python3 ../stm32-font.py --font 'Avenir Next.ttc' --size 20
 
+### Font with custom typeface index (bold, italic, medium, etc.)
+
+*Futura with typeface `Condensed Medium` (index: 3)*
+
+    cd example
+    python3 ../stm32-font.py --font Futura --size 50 -i 3 
+
 ### Other charsets
 
 *Example shown is having chinese charsets*
